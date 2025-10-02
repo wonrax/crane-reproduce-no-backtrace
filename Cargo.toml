@@ -1,0 +1,10 @@
+[package]
+name = "crane-reproduce-no-backtrace"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[profile.release]
+debug = true # Enable debug symbols in release builds
+
