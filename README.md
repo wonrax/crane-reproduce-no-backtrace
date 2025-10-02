@@ -1,4 +1,4 @@
-Has backtraces when run via the CLI (`nix develop -c cargo run`) but not when built with crane (`nix run .#myapp`)
+Backtrace has filenames and line numbers when run via the CLI (`nix develop -c cargo run`) but not when built with crane (`nix run .#myapp`)
 
 ```shell
 >: RUST_BACKTRACE=full nix develop -c cargo run --release
